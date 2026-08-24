@@ -76,15 +76,10 @@ public class FastWordCounter {
         }
 
         try {
-            long startTime = System.currentTimeMillis();
             ConcurrentHashMap<String, Integer> results = processDirectory(args[0]);
-            long endTime = System.currentTimeMillis();
-
-            System.out.println("Processing finished in: " + (endTime - startTime) + " ms");
 			for (var entry : results.entrySet()) {
 				System.out.println(entry.getKey() + ": " + entry.getValue());
 			}
-            System.out.println("Unique words found: " + results.size());
         } catch (Exception e) {
             e.printStackTrace();
         }
