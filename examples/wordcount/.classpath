@@ -6,8 +6,5 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/home/amit/hadoop-install/hadoop/share/hadoop/common/hadoop-common-3.3.6.jar"/>
-	<classpathentry kind="lib" path="/home/amit/hadoop-install/hadoop-3.3.6/share/hadoop/mapreduce/hadoop-mapreduce-client-core-3.3.6.jar"/>
-	<classpathentry kind="lib" path="/home/amit/hadoop-install/hadoop-3.3.6/share/hadoop/hdfs/lib/commons-cli-1.2.jar"/>
 	<classpathentry kind="output" path=""/>
 </classpath>

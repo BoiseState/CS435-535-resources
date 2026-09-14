@@ -33,3 +33,19 @@ hadoop jar ~/hadoop-install/hadoop/share/hadoop/tools/lib/hadoop-streaming-*.jar
 
 hdfs dfs -get output
 ```
+
+
+By default, it will only produce one output file. To produce more output files similar to true
+distributed mode, use the option:
+
+```
+-D mapreduce.job.reduces=8
+
+so the run command would look like this:
+
+```
+hadoop jar ~/hadoop-install/hadoop/share/hadoop/tools/lib/hadoop-streaming-*.jar -D mapreduce.job.reduces=8 -mapper "java Mapper" -reducer "java Reducer"  -input input -output output -file ./Mapper.class  -file ./Reducer.class
+```
+
+
+
