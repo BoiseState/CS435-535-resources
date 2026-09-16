@@ -21,9 +21,9 @@ Create a normal Java project and add the following external jar files (adjusting
 paths):
 
 ```
-~/hadoop-install/hadoop-3.3./share/hadoop/common/hadoop-common-3.3..jar
-~/hadoop-install/hadoop-3.3./share/hadoop/mapreduce/hadoop-mapreduce-client-core-3.3..jar
-~/hadoop-install/hadoop-3.3./share/hadoop/hdfs/lib/commons-cli-1.2.jar
+~/hadoop-install/hadoop-3.5.0/share/hadoop/common/hadoop-common-3.5.0.jar
+~/hadoop-install/hadoop-3.5.0/share/hadoop/mapreduce/hadoop-mapreduce-client-core-3.5.0.jar
+~/hadoop-install/hadoop-3.5.0/share/hadoop/hdfs/lib/commons-cli-1.9.jar
 ```
 
 Then export project as jar file and you should be set.
