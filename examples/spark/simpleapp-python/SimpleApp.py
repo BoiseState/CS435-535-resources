@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """SimpleApp.py"""
 from pyspark.sql import SparkSession
+import logging
+
 
 spark = SparkSession.builder.appName("SimpleApp").getOrCreate()
 
