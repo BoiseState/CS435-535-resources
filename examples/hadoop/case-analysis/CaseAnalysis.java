@@ -29,6 +29,7 @@ public class CaseAnalysis
 		public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
 			String line = value.toString();
 
+			Thread.sleep(15000);
 			for (int i = 0; i < line.length(); i++) {
 				if (Character.isLowerCase(line.charAt(i))) {
 					word.set(String.valueOf(line.charAt(i)).toUpperCase());

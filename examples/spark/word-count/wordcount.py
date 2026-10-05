@@ -14,7 +14,7 @@ if (len(sys.argv) != 3):
     print("Usage: wordcount.py <input folder> <output folder>")
     sys.exit(1)
 
-spark = SparkSession.builder.master('local[*]').appName("Tutorial-1").getOrCreate()
+spark = SparkSession.builder.master('local[*]').appName("wordcount").getOrCreate()
 sc = spark.sparkContext
 
 
