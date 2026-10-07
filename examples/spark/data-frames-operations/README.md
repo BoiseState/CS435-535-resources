@@ -1,4 +1,4 @@
-### How to run the M&M Example
+### How to run the Firecall Example
 To run the Python code for this chapter, use Jupyter notebook `DF-SF-Fire-Example.ipynb` (assuming
 that you have PySpark installed).
 
