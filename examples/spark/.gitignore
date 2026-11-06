@@ -1,3 +1,4 @@
 word-count/results
 */log
 metastore_db/
+*/spark-warehouse
