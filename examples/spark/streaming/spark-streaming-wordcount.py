@@ -26,7 +26,7 @@ streamingQuery = (counts
                 .writeStream
                 .format("console")
                 .outputMode("complete")
-                .trigger(processingTime="1 second")
+                .trigger(processingTime="5 second")
                 .option("checkpointLocation", checkpointDir)
                 .start())
 
